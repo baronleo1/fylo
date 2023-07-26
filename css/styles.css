@@ -1,0 +1,254 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    font-size:10px;
+}
+body{ font-size: 1.6rem;
+      max-width: 144rem;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+.links > a:link,
+.links > a:visited {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: hsl(243, 87%, 12%);
+}
+
+
+.list {
+    list-style-type:none;
+    display: flex;
+/* justify-content: space-between; */
+
+align-items: center ;
+gap: 5rem;
+}
+
+/*  nav bar ends */
+
+/*  hero  section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    padding: 0 5rem;
+    margin-bottom: 20rem;
+}
+
+.section {
+    width: 50%;
+}
+.image {
+    width: 50%;
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.block {
+    display: block;
+    margin-bottom: 1rem;
+}
+.email {
+    padding:  1rem;
+    width: 70%;
+    outline: none;
+    margin-right: 1.5rem;
+}
+.email:invalid {
+    border: 1px solid red;
+}
+.button {
+    padding: 1rem;
+    background-color: blue;
+    color: white;
+    border: 0;
+    width: 20%;
+}
+
+.para {
+    width: 51rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.email-box {
+    width: 51rem;
+}
+h1 {
+    font-size: 3.5rem;
+}
+
+/* main page */
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 5rem;
+    background-color: rgb(246, 246, 254, 0.8);
+}
+.article1{
+    width: 50%;
+}
+.article2image {
+    width: 50%;
+}
+.main-image2 {
+    width: 100%;
+    object-fit: cover;
+}
+.Background {
+    position: absolute;
+    top: -7.5rem;
+    left: 0;
+    width: 100%;
+  }
+  .para2 {
+    width: 50rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .para3 {
+    width: 50rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .anchor {
+    color: hsl(170, 45%, 43%);
+    margin-bottom: 5rem;
+    display: inline-flex;
+    align-items: end;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    padding-bottom: 0.2rem;
+  
+    gap: 0.5rem;
+  }
+  
+  .arrow {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.75rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: hsl(170, 45%, 43%);
+    color: white;
+  }
+  
+  .comma {
+    font-size: 3rem;
+  }
+  
+  .comment {
+    margin-bottom: 2rem;
+    line-height: 3rem;
+  }
+  .founder {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  
+  .u-flex {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.3rem;
+  }
+  .comment-box {
+    background-color: white;
+    width: 38rem;
+    padding: 2rem;
+    box-shadow: 0.4rem 0.4rem 2.5rem rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+  }
+  .sect {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 5rem;
+    background-color: hsl(238, 22%, 44%);
+    color: hsl(0, 0%, 75%);
+  }
+  .para4 {
+    padding-top: 2rem;
+    width: 51rem;
+    color: hsl(0, 0%, 75%);
+  }
+  .email2 {
+    padding: 1.5rem;
+    width: 35rem;
+    display: inline-flex;
+  }
+  .button2 {
+    padding: 1rem;
+    width: 15rem;
+    margin-top: 2rem;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+  }
+  
+  .article-image2 {
+    width: 50%;
+  
+    border: none !important;
+  }
+  .art {
+    border: none;
+  }
+  
+  /* footer */
+  
+  .img1 {
+    color: white;
+    margin-bottom: 5rem;
+  }
+  
+  .div1 {
+    display: flex;
+    justify-content: space-between;
+  
+    color: hsl(0, 0%, 75%);
+    line-height: 2rem;
+  }
+  
+  .ul {
+    list-style: none;
+  }
+  
+  .ul > li:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  footer {
+    background-color: hsl(243, 87%, 12%);
+    padding: 10rem 5rem 5rem;
+  }
+  .div2 {
+    display: flex;
+  
+    gap: 2rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  svg {
+    color: #fff;
+  }
